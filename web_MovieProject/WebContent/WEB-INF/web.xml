@@ -9,4 +9,23 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>MemberServ</servlet-name>
+  	<servlet-class>controller.MemberServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MemberServ</servlet-name>
+  	<url-pattern>/MemberServ</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TheaterServ</display-name>
+    <servlet-name>TheaterServ</servlet-name>
+    <servlet-class>controller.TheaterServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TheaterServ</servlet-name>
+    <url-pattern>/TheaterServ</url-pattern>
+  </servlet-mapping>
 </web-app>
